@@ -1,0 +1,36 @@
+.country-details-container {
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.country-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-40%, -45%);
+}
+
+.country-details img {
+  width: 500px;
+  height: 350px;
+}
+
+.btn-back {
+  text-decoration: none;
+  color: #fff;
+  background-color: #205375;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  display: block;
+  width: fit-content;
+  margin-left: 2rem;
+}
